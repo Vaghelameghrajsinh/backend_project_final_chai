@@ -1,0 +1,4 @@
+// jab koi image and photoes and file ko store krne k liye third party servies ka use krenge: 
+// koi services : aws , azure , cloudinary : 
+first photo upload krvate hai use se first use temp server pe rakho 
+and process se cloudinary pe upload krevte hai 
