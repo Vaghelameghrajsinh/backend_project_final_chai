@@ -1,4 +1,41 @@
 // jab koi image and photoes and file ko store krne k liye third party servies ka use krenge: 
 // koi services : aws , azure , cloudinary : 
 first photo upload krvate hai use se first use temp server pe rakho 
-and process se cloudinary pe upload krevte hai 
+and process se cloudinary pe upload krevte hai : 
+
+
+dataBase another continent me hai uske liye time lagata hai async and await  and try-catch lagana hai :
+1. async and await
+2.try catch 
+
+password  : dnodYg9wlzUe5CfJ
+usrname : vaghelameghrajsinh96_db_user
+
+mongodb+srv://vaghelameghrajsinh96_db_user:dnodYg9wlzUe5CfJ@coding0.9yteqkc.mongodb.net
+
+// approach : 1 : server.js file me : 
+
+import mongoose  from 'mongoose';
+import express from './app.js'
+
+const app = express();
+
+//IFEES 
+( async()=>{
+
+    try{
+      await mongoose.connect('mongodb+srv://vaghelameghrajsinh96_db_user:AFvt3KErt094tdfr@youtube.lhoabgj.mongodb.net/youTube');
+      app.on("error",(error)=>{
+        console.log("ERROR :",error );
+        throw error
+      })
+      app.listen(3000,()=>{
+        console.log("Server is running on port 3000");mongodb+srv://vaghelameghrajsinh96_db_user:AFvt3KErt094tdfr@youtube.lhoabgj.mongodb.net/
+      })
+     
+    }catch(error){
+        console.log("ERROR:",error)
+        throw error
+    }
+     
+})();
