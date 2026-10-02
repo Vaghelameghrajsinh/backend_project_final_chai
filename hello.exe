@@ -39,3 +39,20 @@ const app = express();
     }
      
 })();
+
+// Async methode jab bhi complete hota hai vo ek promise return krta hai 
+
+
+// middleware : 
+
+(req,res,next);
+next() : app middleware ko use kr rhe ho :
+apna kaam ho gya hai agla next() flag use kro : 
+sab middleware k padd next() flag hai : 
+
+
+// bich ki checking ko hi middleware krta hai :
+1. check if user is logged in : 
+2. app response ko lene k liye capable ho 
+3. ckeck if user is admin or not : 
+next();
