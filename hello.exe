@@ -56,3 +56,30 @@ sab middleware k padd next() flag hai :
 2. app response ko lene k liye capable ho 
 3. ckeck if user is admin or not : 
 next();
+
+
+// Multer : 
+// file-handling : Hooks : uyility or middleware banao : 
+Ajj kal 3 third patry website ko use krte hai :  
+// cloudinary :  ham image file video ham usse upload krenge and vo hme url dega and use 
+ham dataBase me store krenge : 
+
+// koi bhi photo image ya file ko upload krna hai to file handling krni hogi : 
+
+// user se file upload krvata hai through  Multer : 
+// temp use local server par store krte hai :
+// cloudinary ka use use krke localstorage se cloudinary k server par stored krenge
+// and cloudinary hme uska url dega 
+// and ham use dataBase par store krva denge 
+
+fs : fileSystem : file system ko handle krta hai 
+read , write , delete , opern ..... ye sab operation perform kar skte hai : 
+
+// unlink file : file ko delete kro : after uploading file in cloudinary
+
+
+
+
+
+
+
